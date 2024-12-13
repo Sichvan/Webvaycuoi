@@ -1,0 +1,854 @@
+﻿
+@{
+    ViewBag.Title = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="~/shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>
+        Váy cưới
+    </title>
+    <link rel="~/stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="~/stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Thanh công cụ -->
+    <header class="header_section" style="width:100%">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <h1>
+                <span>
+                    Sichvan Studio
+                </span>
+            </h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:palevioletred">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="~/Home/Index">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="~/Home/Shop">
+                            Váy cưới
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Home/Testimonial">
+                            Chứng nhận
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Home/Contact">
+                            Liên hệ
+                        </a>
+                    </li>
+
+                    <div class="user_option">
+                        <a href="">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <span>
+                                Đăng nhập
+                            </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </a>
+                        <form class="form-inline ">
+                            <button class="btn nav_search-btn" type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Tất cả váy cưới -->
+    <section class="shop_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    Sản phẩm mới nhất
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoitoigian" ">
+                            <div class="img-box">
+                                <img src="http://mimosawedding.net/wp-content/uploads/2019/12/241480934_337579151213981_1228797111490097265_n.jpg">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới tối giản
+                                </h6>
+                                <h6>
+                                    <span>
+                                        1111111 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoiduoica" ">
+                            <div class="img-box">
+                                <img src="http://mimosawedding.net/wp-content/uploads/2019/12/241668282_337578974547332_8532216855948533621_n.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới đuôi cá
+                                </h6>
+                                <h6>
+                                    <span>
+                                        1500000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoihoanoi" ">
+                            <div class="img-box">
+                                <img src="http://mimosawedding.net/wp-content/uploads/2019/12/241576447_337579021213994_1261669620994744498_n.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới hoa nổi
+                                </h6>
+                                <h6>
+                                    <span>
+                                        8000000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoilaplanh" ">
+                            <div class="img-box">
+                                <img src="https://nicolebridal.vn/wp-content/uploads/2020/07/vay-cuoi-dep-15.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới lấp lánh
+                                </h6>
+                                <h6>
+                                    <span>
+                                        690000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoiatrevai" ">
+                            <div class="img-box">
+                                <img src="http://mimosawedding.net/wp-content/uploads/2019/12/241379973_337579211213975_917750007863572273_n.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới A trễ vai
+                                </h6>
+                                <h6>
+                                    <span>
+                                        490000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoitaybong" ">
+                            <div class="img-box">
+                                <img src="http://mimosawedding.net/wp-content/uploads/2019/12/241525493_337579001213996_7344797129500367846_n.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới tay bồng
+                                </h6>
+                                <h6>
+                                    <span>
+                                        830000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoicrown" ">
+                            <div class="img-box">
+                                <img src="https://nicolebridal.vn/wp-content/uploads/2020/07/vay-cuoi-dep-10.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới Crown
+                                </h6>
+                                <h6>
+                                    <span>
+                                        1690000
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoiadilys" ">
+                            <div class="img-box">
+                                <img src="https://nicolebridal.vn/wp-content/uploads/2020/07/vay-cuoi-dep.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới chữ A Dilys
+                                </h6>
+                                <h6>
+                                    <span>
+                                        1100000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoingan" ">
+                            <div class="img-box">
+                                <img src="https://quyennguyen.vn/wp-content/uploads/2019/12/vay-cuoi-ngan-.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới ngắn
+                                </h6>
+                                <h6>
+                                    <span>
+                                        550000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vayxoecongchua" ">
+                            <div class="img-box">
+                                <img src="https://tonywedding.vn/wp-content/uploads/2023/04/QTP15069-scaled.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy xòe công chúa
+                                </h6>
+                                <h6>
+                                    <span>
+                                        690000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycochuv" ">
+                            <div class="img-box">
+                                <img src="https://poxi.vn/images/post_images/vay-cuoi-han-quoc-08a.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cổ chữ V
+                                </h6>
+                                <h6>
+                                    <span>
+                                        990000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaydangsuong" ">
+                            <div class="img-box">
+                                <img src="https://poxi.vn/images/post_images/vay-cuoi-han-quoc-11a.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy dáng suông
+                                </h6>
+                                <h6>
+                                    <span>
+                                        990000 đ
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoierosvldc" ">
+                            <div class="img-box">
+                                <img src="https://product.hstatic.net/1000259246/product/nude_y_9afb6eab20de4792b092e2bacba03fc1_master.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới Eros vldc
+                                </h6>
+                                <h6>
+                                    <span>
+                                        999999 đ
+                                    </span>
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycuoimuse" ">
+                            <div class="img-box">
+                                <img src="https://product.hstatic.net/1000259246/product/kem_ao-cuoi-vltx-468-luxury-tung-xoe-tay-dai-ren-co-cao-dinh-cuom_eabbd692517f497a926e14bf95125176_master.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy cưới Muse
+                                </h6>
+                                <h6>
+                                    <span>
+                                        999999 đ
+                                    </span>
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaybodynodo" ">
+                            <div class="img-box">
+                                <img src="https://maxi.vn/wp-content/uploads/2024/10/e25c77a7ad0f0b51521e.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy body nơ đỏ
+                                </h6>
+                                <h6>
+                                    <span>
+                                        999999 đ
+                                    </span>
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href=" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#vaycongchuahong" ">
+                            <div class="img-box">
+                                <img src="https://maxi.vn/wp-content/uploads/2024/03/z5263258338404_c3862d91f34849fe1607ff9ad96a849e.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Váy công chúa hồng
+                                </h6>
+                                <h6>
+                                    <span>
+                                        999999đ
+                                    </span>
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup vays cuoi -->
+        <!-- Vay cuoi toi gian -->
+        <div class="modal" id="vaycuoitoigian">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới tối giản</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoitoigian.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi duoi ca -->
+        <div class="modal" id="vaycuoiduoica">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới đuôi cá</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoiduoica.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi hoa noi -->
+        <div class="modal" id="vaycuoihoanoi">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới hoa nổi</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoihoanoi.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi lap lanh -->
+        <div class="modal" id="vaycuoilaplanh">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới lấp lánh</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoilaplanh.jpeg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi A tre vai -->
+        <div class="modal" id="vaycuoiatrevai">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới A trể vai</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/VaycuoiAtrevai.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi tay bong -->
+        <div class="modal" id="vaycuoitaybong">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới tay bồng</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoitaybong.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi crown -->
+        <div class="modal" id="vaycuoicrown">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới Crown</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vaycuoihoanggia.jpeg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi A Dilys -->
+        <div class="modal" id="vaycuoiadilys">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới A Dilys</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/VaycuoichuADilys.png" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi ngan -->
+        <div class="modal" id="vaycuoingan">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới ngắn</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaycuoingan.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay xoe cong chua -->
+        <div class="modal" id="vayxoecongchua">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy xòe công chúa</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Vayxoecongchua.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay co chu v -->
+        <div class="modal" id="vaycochuv">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cổ chữ V</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaycochuV.jpg" style="width:50%;height50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay dang suong -->
+        <div class="modal" id="vaydangsuong">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy dáng suông</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaydangsuong.jpg" style="width:100%;height:100%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi eros vldc -->
+        <div class="modal" id="vaycuoierosvldc">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới Eros vldc</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaycuoierosvldc.png" style="width:50%;height:50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cuoi muse -->
+        <div class="modal" id="vaycuoimuse">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy cưới muse</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaycuoimuse.png" style="width:50%;height:50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay body no do -->
+        <div class="modal" id="vaybodynodo">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy body nơ đỏ</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/Váy body nơ đỏ.jpg"  style="width:50%;height:50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vay cong chua hong -->
+        <div class="modal" id="vaycongchuahong">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"><center>Váy công chúa hồng</center></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="~/images/vaycongchuahong.jpg" style="width:50%;height:50%" /></center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="info_section  layout_padding2-top">
+
+
+        <!-- 3 icon MXH -->
+        <div class="social_container">
+            <div class="social_box">
+                <a href="https://www.facebook.com/profile.php?id=100039094591637&mibextid=ZbWKwL">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/jaxieee2125">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/kha.i01/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCp5QIlgnoj89jwpphLTdsKQ">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Phần địa chỉ cuối -->
+        <div class="info_container ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <center>
+                            <h6>
+                                Sichvan Studio
+                            </h6>
+                        </center>
+
+                        <p>&copy;Chạm đến giấc mơ công chúa <br /> @DateTime.Now.Year - Vững bước theo thời gian</p>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="info_form ">
+                            <center>
+                                <h5>
+                                    Theo dõi
+                                </h5>
+                            </center>
+                            <form action="#">
+                                <input type="email" placeholder="Nhập email">
+                                <center>
+                                    <button>
+                                        Đăng ký
+                                    </button>
+                                </center>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <center>
+                            <h6>
+                                Tư vấn
+                            </h6>
+                        </center>
+                        <p>
+                            Mọi thắc mắc có thể liên hệ qua Fanpage hay trực tiếp tại Studio
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6>
+                            Liên hệ
+                        </h6>
+                        <div class="info_link-box">
+                            <a>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span> 99 Bùi Minh Trực </span>
+                            </a>
+                            <a>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+84 0586505224</span>
+                            </a>
+                            <a>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span> Sichvan@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script src="~/js/custom.js"></script>
+
+</body>
+
+</html>
+
